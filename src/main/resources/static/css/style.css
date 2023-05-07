@@ -1,0 +1,26 @@
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e74c3c;
+    font-family: Arial, sans-serif;
+}
+
+.error-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+p {
+    font-size: 2rem;
+    margin: 1rem 0;
+}

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+
+    /* The image used */
+    background-image: url("images/forest.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainPageParallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.parallax-layer {
+    position: absolute;
+    inset: 0;
+}
+
+.parallax-image {
+    transform: translateZ(0);
+}
+
+.parallax-text {
+    transform: translateZ(-2px);
+}
+
+#loginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #090303;
+    width: 100%;
+    height: 100vh;
+    background-color: #94fffd;
+    flex-direction: column;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="parallax mainPageParallax">
+    <h1>
+    Добро пожаловать
+    </h1>
+</div>
+
+<div id="loginPage">
+    <h1>
+        Введите логин и пароль
+    </h1>
+    <form action="/login" method="post">
+        <p>
+        <label>
+            <input type="text" name="login" placeholder="Логин">
+        </label>
+        </p>
+        <p>
+        <label>
+            <input type="password" name="password" placeholder="Пароль">
+        </label>
+        </p>
+        <p>
+        <label>
+            <input type="password" name="confirmPassword" placeholder="Повторите пароль">
+        </label>
+        </p>
+        <input type="submit" value="Войти">
+    </form>
+</div>
+
+</body>
+</html>
